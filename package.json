@@ -1,0 +1,16 @@
+{
+  "name": "giftmessage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "parcel build index.js --target node",
+    "dev": "parcel watch example/src/index.html --out-dir example/dist"
+  },
+  "author": "Jérémie Dubuis",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.7.0"
+  }
+}
